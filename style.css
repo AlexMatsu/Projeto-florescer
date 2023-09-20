@@ -1,34 +1,59 @@
-:root {
-    --color-orange: #ffa32d;
-    --color_black: #8b1ec4;
+* {
+    padding:0;
+    margin:0;
+    vertical-align:baseline;
+    list-style:none;
+    border:0
+    }
+/* Reset geral do CSS - Aplica os parametros acima em toda pagina*/
+
+img {
+    height: 75px;
+    width: 75px;
+}
+#menu-bar {
+    margin: 10px;
 }
 
-header{
+body{
+    font-family: "Poppins", sans-serif;
+    background-color: #fafafa;
+}
+
+.row {
     display: flex;
-    justify-content: space-between;
-    margin: 15px;
-
-}
-#logo_header{
-    width: 70px;
-    height: 70px;
-    border-radius: 15px; 
+    align-items: center;
+    justify-content: center;
+    
 }
 
-
-header a {
-    text-decoration: none;
-    color: var(--color-orange);
-    padding: 15px;
-    border-radius: 10px;
+.card {
+    border-radius: 5px;
+    box-shadow: 7px 7px 13px 0px rgba(50, 50, 50, 0.22);
+    padding: 30px;
+    margin: 20px;
+    width: 400px;
+    transition: all 0.3s ease-in-out;
 }
 
-a:hover{
-    color: white;
-    background: var(--color-orange);
+.card:hover {
+    transform: translateY(-10px);
+    cursor: pointer;
+    background-color: orangered;
+    color: whitesmoke;
+}
+
+.card p {
+    /*color: #a3a5ae;*/
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.image {
+    float: right;
+    max-width: 64px;
+    max-height: 64px;
 }
 
 
-ul, ol {
-    list-style: none;
-}
+/* Tebela */
