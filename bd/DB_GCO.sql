@@ -275,7 +275,7 @@ COLLATE = utf8mb4_0900_ai_ci;
 
 
 -- -----------------------------------------------------
--- Table `sakila`.`address`
+-- Table `sakila`.`address `
 -- -----------------------------------------------------
 CREATE TABLE IF NOT EXISTS `sakila`.`address` (
   `address_id` SMALLINT UNSIGNED NOT NULL AUTO_INCREMENT,
